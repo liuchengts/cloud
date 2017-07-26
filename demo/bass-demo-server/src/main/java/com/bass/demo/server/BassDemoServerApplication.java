@@ -1,11 +1,10 @@
 package com.bass.demo.server;
 
 
+import com.bass.support.BassSupportApplication;
 import org.mvnsearch.spring.boot.dubbo.EnableDubboConfiguration;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @EnableDubboConfiguration("com.bass.demo.server.dubbo")
-@SpringBootApplication
-public class BassDemoServerApplication{
+public class BassDemoServerApplication extends BassSupportApplication{
 
 }

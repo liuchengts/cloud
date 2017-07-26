@@ -1,2 +1,2 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.bass.support.dubbo.DubboConfig
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+#com.bass.demo.web.dubbo.DubboConfig
