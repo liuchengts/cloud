@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cloud</groupId>
+    <artifactId>bass.component</artifactId>
+    <version>1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.vesion>1.8</java.vesion>
+        <unitils.version>3.4.2</unitils.version>
+        <spring.version>4.3.7.RELEASE</spring.version>
+        <spring-boot.version>1.5.2.RELEASE</spring-boot.version>
+        <spring-cloud.version>Camden.SR5</spring-cloud.version>
+        <platform-bom.version>Brussels-RELEASE</platform-bom.version>
+        <spring-boot-admin.version>1.4.6</spring-boot-admin.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <encoding>UTF-8</encoding>
+    </properties>
+
+    <modules>
+        <module>bass-support</module>
+        <module>bass-support-web</module>
+        <module>bass-jpa</module>
+    </modules>
+</project>

@@ -1,0 +1,5 @@
+eureka:
+  client:
+    service-url:
+       defaultZone: http://user:123456@www.modaolc.com:8761/eureka/
+
