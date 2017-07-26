@@ -14,7 +14,7 @@
         <java.vesion>1.8</java.vesion>
         <unitils.version>3.4.2</unitils.version>
         <spring.version>4.3.7.RELEASE</spring.version>
-        <spring-boot.version>1.5.2.RELEASE</spring-boot.version>
+        <spring-boot.version>1.5.3.RELEASE</spring-boot.version>
         <spring-cloud.version>Camden.SR5</spring-cloud.version>
         <platform-bom.version>Brussels-RELEASE</platform-bom.version>
         <spring-boot-admin.version>1.4.6</spring-boot-admin.version>
@@ -24,8 +24,8 @@
     </properties>
 
     <modules>
-        <module>bass-support</module>
-        <module>bass-support-web</module>
-        <module>bass-jpa</module>
+        <module>bass-demo-common</module>
+        <module>bass-demo-server</module>
+        <module>bass-demo-web</module>
     </modules>
 </project>
