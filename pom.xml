@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>cloud-demo</groupId>
-    <artifactId>bass</artifactId>
+    <artifactId>cloud-demo</artifactId>
     <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -24,8 +24,8 @@
     </properties>
 
     <modules>
-        <module>bass-support</module>
-        <module>bass-support-web</module>
-        <module>bass-jpa</module>
+        <module>bass</module>
+        <module>cloud</module>
+        <module>demo</module>
     </modules>
 </project>
