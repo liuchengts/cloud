@@ -21,12 +21,12 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.bass</groupId>
+			<groupId>bass</groupId>
 			<artifactId>bass-jpa</artifactId>
 			<version>${version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.bass</groupId>
+			<groupId>bass</groupId>
 			<artifactId>bass-support</artifactId>
 			<version>${version}</version>
 		</dependency>
@@ -36,7 +36,7 @@
 			<version>${mysql.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.bass</groupId>
+			<groupId>demo</groupId>
 			<artifactId>bass-demo-common</artifactId>
 			<version>${version}</version>
 		</dependency>
