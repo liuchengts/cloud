@@ -17,18 +17,17 @@
         <spring-boot.version>1.5.3.RELEASE</spring-boot.version>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>demo</groupId>
-            <artifactId>bass-demo-common</artifactId>
-            <version>${version}</version>
-        </dependency>
         <!--基础框架支持-->
         <dependency>
             <groupId>bass</groupId>
             <artifactId>bass-support-web</artifactId>
             <version>${version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>demo</groupId>
+            <artifactId>bass-demo-common</artifactId>
+            <version>${version}</version>
+        </dependency>
     </dependencies>
 
     <build>

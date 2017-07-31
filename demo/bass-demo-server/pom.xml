@@ -22,12 +22,17 @@
 	<dependencies>
 		<dependency>
 			<groupId>bass</groupId>
-			<artifactId>bass-jpa</artifactId>
+			<artifactId>bass-support</artifactId>
+			<version>${version}</version>
+		</dependency>
+		<dependency>
+			<groupId>demo</groupId>
+			<artifactId>bass-demo-common</artifactId>
 			<version>${version}</version>
 		</dependency>
 		<dependency>
 			<groupId>bass</groupId>
-			<artifactId>bass-support</artifactId>
+			<artifactId>bass-jpa</artifactId>
 			<version>${version}</version>
 		</dependency>
 		<dependency>
@@ -35,11 +40,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>${mysql.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>demo</groupId>
-			<artifactId>bass-demo-common</artifactId>
-			<version>${version}</version>
-		</dependency>
+
 	</dependencies>
 
 	<build>

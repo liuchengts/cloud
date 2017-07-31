@@ -16,12 +16,20 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-boot.version>1.5.3.RELEASE</spring-boot.version>
+        <hibernate.version>5.0.12.Final</hibernate.version>
+        <lombok.version>1.16.10</lombok.version>
     </properties>
     <dependencies>
+        <!--data注解-->
         <dependency>
-            <groupId>bass</groupId>
-            <artifactId>bass-jpa</artifactId>
-            <version>${version}</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.version}</version>
         </dependency>
     </dependencies>
     <build>
