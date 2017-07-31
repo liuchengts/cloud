@@ -36,7 +36,6 @@ public class DemoController {
     @ResponseBody
     public Object save(@PathVariable("id") Long id) {
         ApiOperation api= apiOperationManager.fandById(id);
-        System.out.println(UUID.randomUUID().toString());
         api.setId(id+1);
 //        ApiOperation api=new ApiOperation();
 //        api.setId(id+1);
