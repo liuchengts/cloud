@@ -6,6 +6,8 @@ import com.bass.demo.server.service.ApiOperationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
+
 /**
  * Created by apple on 2017/7/21.
  * lc
@@ -24,12 +26,12 @@ public class ApiOperationServiceImpl implements ApiOperationService {
         return apiOperationRepository.findOne(id);
     }
 
-    //如果是事物操作  方法上加上注解 @Transactional
+    @Transactional
     public ApiOperation  save(ApiOperation apiOperation){
         apiOperation = apiOperationRepository.save(apiOperation);
-//        if (1==1){
-//            throw new RuntimeException("自定义异常");
-//        }
+        if (1==1){
+            throw new RuntimeException("自定义异常");
+        }
         return  apiOperation;
     }
 }
