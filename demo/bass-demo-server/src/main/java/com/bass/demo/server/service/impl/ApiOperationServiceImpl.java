@@ -20,16 +20,16 @@ public class ApiOperationServiceImpl implements ApiOperationService {
         this.apiOperationRepository = apiOperationRepository;
     }
 
-    public ApiOperation fandById(String id) {
+    public ApiOperation fandById(Long id) {
         return apiOperationRepository.findOne(id);
     }
 
     //如果是事物操作  方法上加上注解 @Transactional
     public ApiOperation  save(ApiOperation apiOperation){
         apiOperation = apiOperationRepository.save(apiOperation);
-        if (1==1){
-            throw new RuntimeException("自定义异常");
-        }
+//        if (1==1){
+//            throw new RuntimeException("自定义异常");
+//        }
         return  apiOperation;
     }
 }

@@ -8,7 +8,7 @@ import com.bass.demo.common.model.ApiOperation;
  * 给web项目提供dubbo服务
  */
 public interface ApiOperationManager {
-    ApiOperation fandById(String id);
+    ApiOperation fandById(Long id);
 
     ApiOperation save(ApiOperation apiOperation);
 }

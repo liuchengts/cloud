@@ -22,7 +22,7 @@ public class ApiOperationRest {
     }
 
     @RequestMapping("/fandById/{id}")
-    public Object fandById(@PathVariable("id") String id) {
+    public Object fandById(@PathVariable("id") Long id) {
         return apiOperationService.fandById(id);
     }
 }

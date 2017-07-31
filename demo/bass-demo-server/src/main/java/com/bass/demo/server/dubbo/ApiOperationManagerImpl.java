@@ -20,7 +20,7 @@ public class ApiOperationManagerImpl implements ApiOperationManager{
         this.apiOperationService = apiOperationService;
     }
 
-    public ApiOperation fandById(String id) {
+    public ApiOperation fandById(Long id) {
         return apiOperationService.fandById(id);
     }
 

@@ -10,9 +10,9 @@ import java.sql.Timestamp;
  * Created by apple on 2017/7/22.
  */
 @Entity
-@Table(name = "api_operation", schema = "happy", catalog = "")
+@Table(name = "api_operation", schema = "test", catalog = "")
 public class ApiOperation implements Serializable {
-    private String id;
+    private Long id;
     private Timestamp time;
     private String api;
     private String content;
@@ -22,13 +22,13 @@ public class ApiOperation implements Serializable {
     @Basic
     @Id
     @Column(name = "id")
-    @GenericGenerator(name = "generator", strategy = "increment")
+    @GenericGenerator(name = "generator", strategy = "assigned")
     @GeneratedValue(generator = "generator")
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

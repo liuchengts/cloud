@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
  * Created by ytx on 17/5/17.
  */
 @Repository("apiOperationRepository")
-public interface ApiOperationRepository extends JpaRepository<ApiOperation, String>
+public interface ApiOperationRepository extends JpaRepository<ApiOperation, Long>
         , JpaSpecificationExecutor<ApiOperation> {
 
 }
