@@ -3,6 +3,7 @@ package com.bass.demo.common.model;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
@@ -10,7 +11,7 @@ import java.sql.Timestamp;
  */
 @Entity
 @Table(name = "api_operation", schema = "happy", catalog = "")
-public class ApiOperation {
+public class ApiOperation implements Serializable {
     private String id;
     private Timestamp time;
     private String api;

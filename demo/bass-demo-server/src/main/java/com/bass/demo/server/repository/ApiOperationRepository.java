@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 /**
  * Created by ytx on 17/5/17.
  */
-@Repository
+@Repository("apiOperationRepository")
 public interface ApiOperationRepository extends JpaRepository<ApiOperation, String>
         , JpaSpecificationExecutor<ApiOperation> {
 

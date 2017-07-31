@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  * lc
  * 业务实现层  这里可能会使用rest方式调用其他地方的接口
  */
-@Service
+@Service("apiOperationService")
 public class ApiOperationServiceImpl implements ApiOperationService {
     private final ApiOperationRepository apiOperationRepository;
 
