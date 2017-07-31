@@ -9,4 +9,6 @@ import com.bass.demo.common.model.ApiOperation;
 public interface ApiOperationService {
 
     ApiOperation fandById(String id);
+
+    ApiOperation save(ApiOperation apiOperation);
 }

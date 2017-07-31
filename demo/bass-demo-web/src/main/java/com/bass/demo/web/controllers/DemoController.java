@@ -26,8 +26,17 @@ public class DemoController {
 
     @RequestMapping("/fandById/{id}")
     public String fandById(@PathVariable("id") String id, ModelMap model) {
-        ApiOperation apiOperation= apiOperationManager.fandById(id);
+        ApiOperation apiOperation = apiOperationManager.fandById(id);
         model.put("apiOperation", apiOperation);
         return "api/index";
+    }
+
+    @RequestMapping("/save/{id}")
+    @ResponseBody
+    public Object save(@PathVariable("id") String id) {
+        ApiOperation api = apiOperationManager.fandById(id);
+        Integer _id = Integer.valueOf(id) + 1;
+        api.setId(String.valueOf(_id));
+        return apiOperationManager.save(api);
     }
 }

@@ -23,4 +23,8 @@ public class ApiOperationManagerImpl implements ApiOperationManager{
     public ApiOperation fandById(String id) {
         return apiOperationService.fandById(id);
     }
+
+    public ApiOperation save(ApiOperation apiOperation) {
+        return  apiOperationService.save(apiOperation);
+    }
 }
