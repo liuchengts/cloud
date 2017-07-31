@@ -24,6 +24,12 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 			<version>${spring-boot.version}</version>
 		</dependency>
+		<!--添加前端页面模板thymeleaf支持-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<version>${spring-boot.version}</version>
+		</dependency>
 		<!--日志收集-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

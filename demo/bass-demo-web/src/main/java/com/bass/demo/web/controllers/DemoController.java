@@ -1,11 +1,13 @@
 package com.bass.demo.web.controllers;
 
 import com.bass.demo.common.dubbo.ApiOperationManager;
+import com.bass.demo.common.model.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * Created by apple on 2017/7/21.
@@ -24,7 +26,8 @@ public class DemoController {
 
     @RequestMapping("/fandById/{id}")
     public String fandById(@PathVariable("id") String id, ModelMap model) {
-        model.put("couponBatch", apiOperationManager.fandById(id));
+        ApiOperation apiOperation= apiOperationManager.fandById(id);
+        model.put("apiOperation", apiOperation);
         return "api/index";
     }
 }
