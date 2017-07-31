@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @EnableDubboConfiguration("com.bass.demo.server.dubbo")
 @EntityScan({"com.bass.demo.common.model"})
-@EnableTransactionManagement
 public class BassDemoServerApplication extends BassSupportApplication{
     public static void main(String[] args) {
         SpringApplication.run(BassDemoServerApplication.class, args);
