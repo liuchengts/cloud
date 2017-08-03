@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bass-demo-common" />
+        <module name="bass-demo-server" />
+        <module name="bass-demo-web" />
+        <module name="bass-jpa" />
+        <module name="bass-support" />
+        <module name="bass-support-web" />
+        <module name="eureka-consumer-demo" />
+        <module name="eureka-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bass" target="1.8" />
+      <module name="bass-demo-common" target="1.5" />
+      <module name="bass-demo-server" target="1.5" />
+      <module name="bass-demo-web" target="1.5" />
+      <module name="bass-jpa" target="1.5" />
+      <module name="bass-support" target="1.5" />
+      <module name="bass-support-web" target="1.5" />
+      <module name="cloud" target="1.8" />
+      <module name="cloud-demo" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka-consumer-demo" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
