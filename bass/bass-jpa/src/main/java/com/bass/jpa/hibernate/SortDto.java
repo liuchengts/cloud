@@ -1,4 +1,4 @@
-package com.bass.jpa.utlis;
+package com.bass.jpa.hibernate;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.bass.jpa.utlis;
+package com.bass.jpa.hibernate;
 /**
  * Created by ytx on 17/5/18.
  * lc

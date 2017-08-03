@@ -1,4 +1,4 @@
-package com.bass.jpa.utlis;
+package com.bass.jpa.hibernate;
 
 import org.springframework.data.domain.Sort;
 
