@@ -4,8 +4,9 @@ bass-jpa
 
 ### 说明
 
-* hibernate  提供hibernate的支持
-
+* 提供jpa支持
+* hibernate  提供hibernate的操作支持
+* redis  提供redis的支持
 
 
 
