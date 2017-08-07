@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  * Created by apple on 2017/7/30.
  */
 @Component
-@Service(version = "1.0.0", interfaceClass = ApiOperationManager.class)
+@Service(version = "1.0.0")
 public class ApiOperationManagerImpl implements ApiOperationManager {
     private final ApiOperationService apiOperationService;
 
