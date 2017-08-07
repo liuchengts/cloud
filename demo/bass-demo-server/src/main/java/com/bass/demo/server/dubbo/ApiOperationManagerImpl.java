@@ -1,6 +1,6 @@
 package com.bass.demo.server.dubbo;
 
-import com.alibaba.dubbo.config.annotation.DubboService;
+import com.alibaba.dubbo.config.annotation.Service;
 import com.bass.demo.common.dubbo.ApiOperationManager;
 import com.bass.demo.common.model.ApiOperation;
 import com.bass.demo.server.service.ApiOperationService;
@@ -11,8 +11,8 @@ import org.springframework.stereotype.Component;
  * Created by apple on 2017/7/30.
  */
 @Component
-@DubboService(interfaceClass = ApiOperationManager.class)
-public class ApiOperationManagerImpl implements ApiOperationManager{
+@Service(version = "1.0.0", interfaceClass = ApiOperationManager.class)
+public class ApiOperationManagerImpl implements ApiOperationManager {
     private final ApiOperationService apiOperationService;
 
     @Autowired
@@ -25,6 +25,6 @@ public class ApiOperationManagerImpl implements ApiOperationManager{
     }
 
     public ApiOperation save(ApiOperation apiOperation) {
-        return  apiOperationService.save(apiOperation);
+        return apiOperationService.save(apiOperation);
     }
 }
