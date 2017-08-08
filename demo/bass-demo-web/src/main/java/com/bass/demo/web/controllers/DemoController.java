@@ -1,8 +1,8 @@
 package com.bass.demo.web.controllers;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.bass.demo.common.dubbo.ApiOperationManager;
 import com.bass.demo.common.model.ApiOperation;
-import jdk.nashorn.internal.ir.annotations.Reference;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/api")
 public class DemoController {
-    @Reference
+    @Reference(version = "1.0.0")
     private ApiOperationManager apiOperationManager;
 
     @RequestMapping("/fandById/{id}")
