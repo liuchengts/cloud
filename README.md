@@ -4,7 +4,7 @@ cloud-demo
 
 ### 说明
 
-* bass 系统支持（集成了springcloud的一些组件）
+* bass 系统支持（集成了springcloud的一些组件，规范了一些分布式的调用问题）
 * cloud  云模块
 * demo 示例demo
 
