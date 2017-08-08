@@ -13,12 +13,8 @@ import org.springframework.stereotype.Component;
 @Component
 @Service(version = "1.0.0")
 public class ApiOperationManagerImpl implements ApiOperationManager {
-    private final ApiOperationService apiOperationService;
-
     @Autowired
-    public ApiOperationManagerImpl(ApiOperationService apiOperationService) {
-        this.apiOperationService = apiOperationService;
-    }
+    private  ApiOperationService apiOperationService;
 
     public ApiOperation fandById(Long id) {
         return apiOperationService.fandById(id);
