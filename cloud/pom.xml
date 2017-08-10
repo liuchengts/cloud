@@ -26,5 +26,6 @@
     <modules>
         <module>eureka-server</module>
         <module>eureka-consumer-demo</module>
+        <module>zuul-server</module>
     </modules>
 </project>

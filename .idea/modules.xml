@@ -10,10 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/bass/bass-support/bass-support.iml" filepath="$PROJECT_DIR$/bass/bass-support/bass-support.iml" />
       <module fileurl="file://$PROJECT_DIR$/bass/bass-support-web/bass-support-web.iml" filepath="$PROJECT_DIR$/bass/bass-support-web/bass-support-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/cloud.iml" filepath="$PROJECT_DIR$/cloud/cloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-demo.iml" filepath="$PROJECT_DIR$/cloud-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cloud-demo.iml" filepath="$PROJECT_DIR$/.idea/cloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/eureka-consumer-demo/eureka-consumer-demo.iml" filepath="$PROJECT_DIR$/cloud/eureka-consumer-demo/eureka-consumer-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/cloud/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/cloud/zuul-server/zuul-server.iml" />
     </modules>
   </component>
 </project>
