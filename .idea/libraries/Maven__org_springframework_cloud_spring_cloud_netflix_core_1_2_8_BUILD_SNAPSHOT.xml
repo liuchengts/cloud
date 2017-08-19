@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.8.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.8.BUILD-SNAPSHOT/spring-cloud-netflix-core-1.2.8.BUILD-20170730.044507-668.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.8.BUILD-SNAPSHOT/spring-cloud-netflix-core-1.2.8.BUILD-20170819.044505-824.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.8.BUILD-SNAPSHOT/spring-cloud-netflix-core-1.2.8.BUILD-20170730.044507-668-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.8.BUILD-SNAPSHOT/spring-cloud-netflix-core-1.2.8.BUILD-20170819.044505-824-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.8.BUILD-SNAPSHOT/spring-cloud-netflix-core-1.2.8.BUILD-20170730.044507-668-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.2.8.BUILD-SNAPSHOT/spring-cloud-netflix-core-1.2.8.BUILD-20170819.044505-824-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

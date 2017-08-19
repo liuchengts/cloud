@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-starter-hystrix-dashboard:1.2.8.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-hystrix-dashboard/1.2.8.BUILD-SNAPSHOT/spring-cloud-starter-hystrix-dashboard-1.2.8.BUILD-20170730.044754-665.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-hystrix-dashboard/1.2.8.BUILD-SNAPSHOT/spring-cloud-starter-hystrix-dashboard-1.2.8.BUILD-20170818.224748-819.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-hystrix-dashboard/1.2.8.BUILD-SNAPSHOT/spring-cloud-starter-hystrix-dashboard-1.2.8.BUILD-20170730.044754-665-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-hystrix-dashboard/1.2.8.BUILD-SNAPSHOT/spring-cloud-starter-hystrix-dashboard-1.2.8.BUILD-20170818.224748-819-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-hystrix-dashboard/1.2.8.BUILD-SNAPSHOT/spring-cloud-starter-hystrix-dashboard-1.2.8.BUILD-20170730.044754-665-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-hystrix-dashboard/1.2.8.BUILD-SNAPSHOT/spring-cloud-starter-hystrix-dashboard-1.2.8.BUILD-20170818.224748-819-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

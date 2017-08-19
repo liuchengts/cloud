@@ -39,7 +39,32 @@
 		</dependency>
 
 	</dependencies>
-
+	<!-- Environment Settings -->
+	<distributionManagement>
+		<repository>
+			<id>modao</id>
+			<name>maven-public</name>
+			<url>http://192.168.0.25:9999/repository/maven-public/</url>
+		</repository>
+		<snapshotRepository>
+			<id>modao</id>
+			<name>maven-public</name>
+			<url>http://192.168.0.25:9999/repository/maven-public/</url>
+		</snapshotRepository>
+	</distributionManagement>
+	<repositories>
+		<repository>
+			<id>modao</id>
+			<name>maven-public</name>
+			<url>http://192.168.0.25:9999/repository/maven-public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 	<build>
 		<plugins>
 			<plugin>
