@@ -7,3 +7,13 @@ eureka:
 logging:
   level: info
 
+#spring:
+#  kafka:
+#    bootstrap-servers: www.modaolc.com:9092
+#    consumer:
+#      group-id: testGroup
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#    producer:
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer

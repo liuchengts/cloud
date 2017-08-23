@@ -25,4 +25,11 @@ public class ApiOperationRest {
     public Object fandById(@PathVariable("id") Long id) {
         return apiOperationService.fandById(id);
     }
+
+//    @RequestMapping("/kafka")
+//    public String kafka() {
+//        Sender sender=new Sender();
+//        sender.sendMessage();
+//        return "成功kafka";
+//    }
 }

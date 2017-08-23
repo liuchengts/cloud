@@ -17,12 +17,15 @@ import org.springframework.web.client.RestTemplate;
 @EnableAsync //启用异步
 public class BassSupportApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BassSupportApplication.class, args);
-	}
-	@Bean
-	@LoadBalanced
-	RestTemplate restTemplate() {
-		return new RestTemplate();
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(BassSupportApplication.class, args);
+    }
+
+    @Bean
+    @LoadBalanced
+    RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
+
+
 }
