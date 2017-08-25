@@ -10,7 +10,7 @@ eureka:
 
 spring:
   kafka:
-    bootstrap-servers: 192.168.10.151:9092
+    bootstrap-servers: www.modaolc.com:9092
     consumer:
       group-id: testGroup
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
