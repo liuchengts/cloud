@@ -1,0 +1,22 @@
+server:
+  port: 2224
+
+#spring:
+#  cloud:
+#    stream:
+#      kafka:
+#        binder:
+#          brokers: www.modaolc.com
+#          defaultBrokerPort: 9092
+#          zkNodes: www.modaolc.com
+#          defaultZkPort: 2181
+#    bus:
+#      trace:
+#        enabled: true
+
+
+spring:
+  kafka:
+    bootstrap-servers: www.modaolc.com:9092
+    consumer:
+      group-id: testGroup

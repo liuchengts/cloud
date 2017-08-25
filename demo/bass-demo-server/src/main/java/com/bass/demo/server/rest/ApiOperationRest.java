@@ -2,6 +2,7 @@ package com.bass.demo.server.rest;
 
 import com.bass.demo.server.service.ApiOperationService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,9 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class ApiOperationRest {
     private final ApiOperationService apiOperationService;
 
+    private final KafkaTemplate kafkaTemplate;
     @Autowired
-    public ApiOperationRest(ApiOperationService apiOperationService) {
+    public ApiOperationRest(ApiOperationService apiOperationService, KafkaTemplate kafkaTemplate) {
         this.apiOperationService = apiOperationService;
+        this.kafkaTemplate = kafkaTemplate;
     }
 
     @RequestMapping("/fandById/{id}")
@@ -26,10 +29,9 @@ public class ApiOperationRest {
         return apiOperationService.fandById(id);
     }
 
-//    @RequestMapping("/kafka")
-//    public String kafka() {
-//        Sender sender=new Sender();
-//        sender.sendMessage();
-//        return "成功kafka";
-//    }
+
+    @RequestMapping("/kafka")
+    public void index() {
+        kafkaTemplate.send("test", "lc,你好");
+    }
 }
