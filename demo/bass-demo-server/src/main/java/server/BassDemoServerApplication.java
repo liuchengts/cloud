@@ -1,6 +1,4 @@
 package server;
-
-
 import com.bass.support.BassSupportApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;

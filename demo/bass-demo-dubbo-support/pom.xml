@@ -16,7 +16,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<spring-boot.version>1.5.3.RELEASE</spring-boot.version>
-		<spring-boot-dubbo.version>1.0.0-SNAPSHOT</spring-boot-dubbo.version>
+		<dubbo.version>1.0.0</dubbo.version>
 	</properties>
 
 	<dependencies>
@@ -27,9 +27,9 @@
 		</dependency>
 		<!-- dubbo支持 -->
 		<dependency>
-			<groupId>org.mvnsearch.spring.boot</groupId>
+			<groupId>io.dubbo.springboot</groupId>
 			<artifactId>spring-boot-starter-dubbo</artifactId>
-			<version>${spring-boot-dubbo.version}</version>
+			<version>${dubbo.version}</version>
 		</dependency>
 	</dependencies>
 
