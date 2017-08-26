@@ -1,10 +1,10 @@
-package com.bass.demo.server.service.dubbo;
+package server.service.dubbo;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import common.model.ApiOperation;
-import com.bass.demo.server.service.ApiOperationService;
 import dubbo.manager.ApiOperationManager;
 import org.springframework.beans.factory.annotation.Autowired;
+import server.service.ApiOperationService;
 
 /**
  * Created by apple on 2017/7/30.

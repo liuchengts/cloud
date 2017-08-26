@@ -1,4 +1,4 @@
-package com.bass.demo.server.event;
+package server.event;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;

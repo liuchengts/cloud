@@ -5,16 +5,3 @@ eureka:
     client:
       service-url:
          defaultZone: http://user:123456@www.modaolc.com:8761/eureka/
-
-
-
-spring:
-  kafka:
-    bootstrap-servers: www.modaolc.com:9092
-    consumer:
-      group-id: testGroup
-      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-    producer:
-      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer

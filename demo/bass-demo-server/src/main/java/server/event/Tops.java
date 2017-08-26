@@ -1,4 +1,4 @@
-package com.bass.demo.server.event;
+package server.event;
 
 /***
  * 消息top声明

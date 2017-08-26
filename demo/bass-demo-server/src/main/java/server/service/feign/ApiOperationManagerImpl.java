@@ -1,11 +1,11 @@
-package com.bass.demo.server.service.feign;
+package server.service.feign;
 
 import cloud.feign.manager.ApiOperationManager;
-import com.bass.demo.server.event.SendKafka;
-import com.bass.demo.server.event.Tops;
-import com.bass.demo.server.service.ApiOperationService;
+import server.event.SendKafka;
+import server.event.Tops;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import server.service.ApiOperationService;
 
 /**
  * Created by apple on 2017/7/30.

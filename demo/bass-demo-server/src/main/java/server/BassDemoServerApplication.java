@@ -1,12 +1,11 @@
-package com.bass.demo.server;
+package server;
 
 
 import com.bass.support.BassSupportApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.context.annotation.ComponentScan;
 
-@EntityScan({"com.bass.demo.common.model"})
+@EntityScan({"common.model"})
 public class BassDemoServerApplication extends BassSupportApplication {
 
     public static void main(String[] args) {

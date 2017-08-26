@@ -1,4 +1,4 @@
-package com.bass.demo.server.service;
+package server.service;
 
 
 import common.model.ApiOperation;

@@ -1,4 +1,4 @@
-package com.bass.demo.server.event;
+package server.event;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
