@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>bass-demo-common</name>
-    <description>Demo project for Spring Boot</description>
+    <description>common基础支持</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

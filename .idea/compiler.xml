@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bass-cloud-support" />
         <module name="bass-demo-cloud-support" />
         <module name="bass-demo-common" />
         <module name="bass-demo-core" />
@@ -13,8 +14,10 @@
         <module name="bass-demo-server" />
         <module name="bass-demo-web" />
         <module name="bass-jpa" />
+        <module name="bass-jpa-support" />
         <module name="bass-support" />
         <module name="bass-support-web" />
+        <module name="bass-web-support" />
         <module name="eureka-consumer-demo" />
         <module name="eureka-server" />
         <module name="kafka-demo" />
@@ -23,15 +26,18 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bass" target="1.8" />
-      <module name="bass-demo-cloud-support" target="1.8" />
+      <module name="bass-cloud-support" target="1.5" />
+      <module name="bass-demo-cloud-support" target="1.5" />
       <module name="bass-demo-common" target="1.5" />
-      <module name="bass-demo-core" target="1.8" />
-      <module name="bass-demo-dubbo-support" target="1.8" />
+      <module name="bass-demo-core" target="1.5" />
+      <module name="bass-demo-dubbo-support" target="1.5" />
       <module name="bass-demo-server" target="1.5" />
       <module name="bass-demo-web" target="1.5" />
       <module name="bass-jpa" target="1.5" />
+      <module name="bass-jpa-support" target="1.5" />
       <module name="bass-support" target="1.5" />
       <module name="bass-support-web" target="1.5" />
+      <module name="bass-web-support" target="1.5" />
       <module name="cloud" target="1.8" />
       <module name="cloud-demo" target="1.8" />
       <module name="demo" target="1.8" />

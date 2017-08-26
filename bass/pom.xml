@@ -24,8 +24,8 @@
     </properties>
 
     <modules>
-        <module>bass-support</module>
-        <module>bass-support-web</module>
-        <module>bass-jpa</module>
+        <module>bass-cloud-support</module>
+        <module>bass-web-support</module>
+        <module>bass-jpa-support</module>
     </modules>
 </project>

@@ -20,12 +20,12 @@
         <!--基础框架支持-->
         <dependency>
             <groupId>bass</groupId>
-            <artifactId>bass-support-web</artifactId>
+            <artifactId>bass-web-support</artifactId>
             <version>${version}</version>
         </dependency>
         <dependency>
             <groupId>demo</groupId>
-            <artifactId>bass-demo-common</artifactId>
+            <artifactId>bass-demo-dubbo-support</artifactId>
             <version>${version}</version>
         </dependency>
     </dependencies>

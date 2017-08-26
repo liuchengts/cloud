@@ -1,9 +1,9 @@
 package com.bass.demo.server.service.dubbo;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.bass.demo.common.dubbo.ApiOperationManager;
-import com.bass.demo.common.model.ApiOperation;
+import common.model.ApiOperation;
 import com.bass.demo.server.service.ApiOperationService;
+import dubbo.manager.ApiOperationManager;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**

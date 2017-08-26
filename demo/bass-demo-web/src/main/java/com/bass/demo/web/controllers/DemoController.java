@@ -1,8 +1,8 @@
 package com.bass.demo.web.controllers;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.bass.demo.common.dubbo.ApiOperationManager;
-import com.bass.demo.common.model.ApiOperation;
+import common.model.ApiOperation;
+import dubbo.manager.ApiOperationManager;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;

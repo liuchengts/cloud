@@ -1,8 +1,8 @@
 package com.bass.demo.server.service.impl;
 
-import com.bass.demo.common.model.ApiOperation;
-import com.bass.demo.server.repository.ApiOperationRepository;
+import common.model.ApiOperation;
 import com.bass.demo.server.service.ApiOperationService;
+import core.repository.ApiOperationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

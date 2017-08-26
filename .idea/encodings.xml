@@ -3,9 +3,9 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bass" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/bass/bass-jpa" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/bass/bass-support" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/bass/bass-support-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bass/bass-cloud-support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bass/bass-jpa-support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bass/bass-web-support" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/eureka-consumer-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/eureka-server" charset="UTF-8" />

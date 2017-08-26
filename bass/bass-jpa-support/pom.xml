@@ -3,38 +3,37 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>demo</groupId>
-	<artifactId>bass-demo-server</artifactId>
+	<groupId>bass</groupId>
+	<artifactId>bass-jpa-support</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>bass-demo-server</name>
-	<description>Demo project for Spring Boot</description>
+	<name>bass-jpa-support</name>
+	<description>jpa基础支持</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<mysql.version>5.1.41</mysql.version>
 		<spring-boot.version>1.5.3.RELEASE</spring-boot.version>
+		<lombok.version>1.16.10</lombok.version>
 	</properties>
 
 	<dependencies>
+		<!-- jpa  -->
 		<dependency>
-			<groupId>demo</groupId>
-			<artifactId>bass-demo-cloud-support</artifactId>
-			<version>${version}</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<version>${spring-boot.version}</version>
 		</dependency>
+		<!--redis data支持-->
 		<dependency>
-			<groupId>demo</groupId>
-			<artifactId>bass-demo-dubbo-support</artifactId>
-			<version>${version}</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+			<version>${spring-boot.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>demo</groupId>
-			<artifactId>bass-demo-core</artifactId>
-			<version>${version}</version>
-		</dependency>
+
+
 	</dependencies>
 
 	<build>
