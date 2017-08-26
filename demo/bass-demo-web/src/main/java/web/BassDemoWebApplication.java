@@ -1,4 +1,4 @@
-package com.bass.demo.web;
+package web;
 
 import com.bass.supportWeb.BassSupportWebApplication;
 import org.springframework.boot.SpringApplication;

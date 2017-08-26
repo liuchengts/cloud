@@ -1,4 +1,4 @@
-package com.bass.demo.web.controllers;
+package web.controllers;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import common.model.ApiOperation;
