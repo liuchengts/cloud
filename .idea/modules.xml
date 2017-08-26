@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-cloud-support/bass-demo-cloud-support.iml" filepath="$PROJECT_DIR$/demo/bass-demo-cloud-support/bass-demo-cloud-support.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-common/bass-demo-common.iml" filepath="$PROJECT_DIR$/demo/bass-demo-common/bass-demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-core/bass-demo-core.iml" filepath="$PROJECT_DIR$/demo/bass-demo-core/bass-demo-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-dubbo-support/bass-demo-dubbo-support.iml" filepath="$PROJECT_DIR$/demo/bass-demo-dubbo-support/bass-demo-dubbo-support.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-server/bass-demo-server.iml" filepath="$PROJECT_DIR$/demo/bass-demo-server/bass-demo-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-web/bass-demo-web.iml" filepath="$PROJECT_DIR$/demo/bass-demo-web/bass-demo-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/bass/bass-jpa/bass-jpa.iml" filepath="$PROJECT_DIR$/bass/bass-jpa/bass-jpa.iml" />

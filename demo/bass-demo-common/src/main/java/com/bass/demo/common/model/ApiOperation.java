@@ -1,5 +1,6 @@
 package com.bass.demo.common.model;
 
+
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;

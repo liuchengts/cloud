@@ -25,6 +25,9 @@
 
     <modules>
         <module>bass-demo-common</module>
+        <module>bass-demo-dubbo-support</module>
+        <module>bass-demo-cloud-support</module>
+        <module>bass-demo-core</module>
         <module>bass-demo-server</module>
         <module>bass-demo-web</module>
     </modules>

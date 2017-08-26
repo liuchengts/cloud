@@ -5,6 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/demo/kafka-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/bass-demo-cloud-support/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/bass-demo-dubbo-support/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/bass-demo-core/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
