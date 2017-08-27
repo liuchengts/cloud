@@ -38,7 +38,8 @@ public class ApiOperationServiceImpl implements ApiOperationService {
         return  apiOperation;
     }
 
-    public void sendKafka() {
-        sendKafka.sendTest(Tops.TEST,"测试lc 消息内容");
+    public void sendKafka(String c) {
+        sendKafka.sendTest(Tops.TEST,c);
     }
+
 }

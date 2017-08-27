@@ -11,5 +11,5 @@ public interface ApiOperationService {
     ApiOperation fandById(Long id);
 
     ApiOperation save(ApiOperation apiOperation);
-    void sendKafka();
+    void sendKafka(String c);
 }

@@ -1,8 +1,10 @@
 package web.controllers;
 
+import cloud.feign.client.ApiOperationClient;
 import com.alibaba.dubbo.config.annotation.Reference;
 import common.model.ApiOperation;
 import dubbo.manager.ApiOperationManager;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,7 +22,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class DemoController {
     @Reference(version = "1.0.0")
     private ApiOperationManager apiOperationManager;
-
     @RequestMapping("/kafka")
     @ResponseBody
     public void kafka() {

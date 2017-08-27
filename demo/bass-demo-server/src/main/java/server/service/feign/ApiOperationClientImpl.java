@@ -1,6 +1,7 @@
 package server.service.feign;
 
 import cloud.feign.client.ApiOperationClient;
+import common.model.ApiOperation;
 import server.event.SendKafka;
 import server.event.Tops;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +24,11 @@ public class ApiOperationClientImpl implements ApiOperationClient {
     }
 
     public String rest(String rest) {
-        sendKafka.sendTest(Tops.TEST,rest);
         return rest;
+    }
+
+    public void sendKafka() {
+        ApiOperation apiOperation=apiOperationService.fandById(1l);
+        sendKafka.sendTest(Tops.TEST,apiOperation.getContent()+"| Client");
     }
 }

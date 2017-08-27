@@ -15,4 +15,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface ApiOperationClient {
     @RequestMapping(method = RequestMethod.GET, value = "/rest")
     String rest(@RequestParam(value = "rest") String rest);
+    @RequestMapping(method = RequestMethod.GET, value = "/kafka")
+    void sendKafka();
 }
