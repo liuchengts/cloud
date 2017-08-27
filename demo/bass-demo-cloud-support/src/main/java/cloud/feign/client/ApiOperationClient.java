@@ -1,4 +1,4 @@
-package cloud.feign.manager;
+package cloud.feign.client;
 
 
 import cloud.feign.hystrix.ApiOperationHystrix;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * 提供feign接口
  */
 @FeignClient(name = "bass-demo-server", fallback = ApiOperationHystrix.class)
-public interface ApiOperationManager {
+public interface ApiOperationClient {
     @RequestMapping(method = RequestMethod.GET, value = "/rest")
     String rest(@RequestParam(value = "rest") String rest);
 }

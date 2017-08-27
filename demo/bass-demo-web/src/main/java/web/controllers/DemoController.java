@@ -22,6 +22,7 @@ public class DemoController {
     private ApiOperationManager apiOperationManager;
 
     @RequestMapping("/kafka")
+    @ResponseBody
     public void kafka() {
         apiOperationManager.sendKafka();
     }
