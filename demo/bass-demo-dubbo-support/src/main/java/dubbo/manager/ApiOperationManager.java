@@ -9,4 +9,5 @@ public interface ApiOperationManager {
     ApiOperation fandById(Long id);
 
     ApiOperation save(ApiOperation apiOperation);
+    void sendKafka();
 }

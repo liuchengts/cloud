@@ -26,4 +26,8 @@ public class ApiOperationManagerImpl implements ApiOperationManager {
     public ApiOperation save(ApiOperation apiOperation) {
         return apiOperationService.save(apiOperation);
     }
+
+    public void sendKafka() {
+        apiOperationService.sendKafka();
+    }
 }

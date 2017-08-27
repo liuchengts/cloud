@@ -21,6 +21,11 @@ public class DemoController {
     @Reference(version = "1.0.0")
     private ApiOperationManager apiOperationManager;
 
+    @RequestMapping("/kafka")
+    public void kafka() {
+        apiOperationManager.sendKafka();
+    }
+
     @RequestMapping("/fandById/{id}")
     public String fandById(@PathVariable("id") Long id, ModelMap model) {
         ApiOperation apiOperation = apiOperationManager.fandById(id);

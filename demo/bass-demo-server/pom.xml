@@ -15,11 +15,15 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<mysql.version>5.1.41</mysql.version>
 		<spring-boot.version>1.5.3.RELEASE</spring-boot.version>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>demo</groupId>
+			<artifactId>bass-demo-core</artifactId>
+			<version>${version}</version>
+		</dependency>
 		<dependency>
 			<groupId>demo</groupId>
 			<artifactId>bass-demo-cloud-support</artifactId>
@@ -30,11 +34,7 @@
 			<artifactId>bass-demo-dubbo-support</artifactId>
 			<version>${version}</version>
 		</dependency>
-		<dependency>
-			<groupId>demo</groupId>
-			<artifactId>bass-demo-core</artifactId>
-			<version>${version}</version>
-		</dependency>
+
 	</dependencies>
 
 	<build>

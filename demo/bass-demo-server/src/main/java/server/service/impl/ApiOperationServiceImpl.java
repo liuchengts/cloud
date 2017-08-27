@@ -4,6 +4,8 @@ import common.model.ApiOperation;
 import core.repository.ApiOperationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import server.event.SendKafka;
+import server.event.Tops;
 import server.service.ApiOperationService;
 
 import javax.transaction.Transactional;
@@ -16,10 +18,11 @@ import javax.transaction.Transactional;
 @Service("apiOperationService")
 public class ApiOperationServiceImpl implements ApiOperationService {
     private final ApiOperationRepository apiOperationRepository;
-
+    private final SendKafka sendKafka;
     @Autowired
-    public ApiOperationServiceImpl(ApiOperationRepository apiOperationRepository) {
+    public ApiOperationServiceImpl(ApiOperationRepository apiOperationRepository, SendKafka sendKafka) {
         this.apiOperationRepository = apiOperationRepository;
+        this.sendKafka = sendKafka;
     }
 
     public ApiOperation fandById(Long id) {
@@ -33,5 +36,9 @@ public class ApiOperationServiceImpl implements ApiOperationService {
             throw new RuntimeException("自定义异常");
         }
         return  apiOperation;
+    }
+
+    public void sendKafka() {
+        sendKafka.sendTest(Tops.TEST,"测试lc 消息内容");
     }
 }
