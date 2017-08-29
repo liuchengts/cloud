@@ -16,6 +16,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="bass-cloud-support" />
+    <orderEntry type="module" module-name="bass-demo-dubbo-support" />
     <orderEntry type="module" module-name="bass-demo-core" />
     <orderEntry type="module" module-name="bass-jpa-support" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:1.5.3.RELEASE" level="project" />
