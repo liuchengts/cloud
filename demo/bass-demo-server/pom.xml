@@ -20,6 +20,11 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>bass</groupId>
+			<artifactId>bass-cloud-support</artifactId>
+			<version>${version}</version>
+		</dependency>
+		<dependency>
 			<groupId>demo</groupId>
 			<artifactId>bass-demo-core</artifactId>
 			<version>${version}</version>
