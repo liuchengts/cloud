@@ -7,9 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bass-cloud-support" />
+        <module name="bass-demo-aggregation" />
+        <module name="bass-demo-cloud-starter" />
         <module name="bass-demo-cloud-support" />
         <module name="bass-demo-common" />
         <module name="bass-demo-core" />
+        <module name="bass-demo-dubbo-starter" />
         <module name="bass-demo-dubbo-support" />
         <module name="bass-demo-server" />
         <module name="bass-demo-web" />
@@ -27,9 +30,12 @@
     <bytecodeTargetLevel>
       <module name="bass" target="1.8" />
       <module name="bass-cloud-support" target="1.5" />
+      <module name="bass-demo-aggregation" target="1.5" />
+      <module name="bass-demo-cloud-starter" target="1.5" />
       <module name="bass-demo-cloud-support" target="1.5" />
       <module name="bass-demo-common" target="1.5" />
       <module name="bass-demo-core" target="1.5" />
+      <module name="bass-demo-dubbo-starter" target="1.5" />
       <module name="bass-demo-dubbo-support" target="1.5" />
       <module name="bass-demo-server" target="1.5" />
       <module name="bass-demo-web" target="1.5" />

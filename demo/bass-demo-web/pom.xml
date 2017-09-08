@@ -17,15 +17,21 @@
         <spring-boot.version>1.5.3.RELEASE</spring-boot.version>
     </properties>
     <dependencies>
+        <!--添加前端页面模板thymeleaf支持-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
         <!--基础框架支持-->
         <dependency>
             <groupId>bass</groupId>
-            <artifactId>bass-web-support</artifactId>
+            <artifactId>bass-support</artifactId>
             <version>${version}</version>
         </dependency>
         <dependency>
             <groupId>demo</groupId>
-            <artifactId>bass-demo-dubbo-support</artifactId>
+            <artifactId>bass-demo-dubbo-starter</artifactId>
             <version>${version}</version>
         </dependency>
     </dependencies>

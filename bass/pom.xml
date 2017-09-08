@@ -25,7 +25,7 @@
 
     <modules>
         <module>bass-cloud-support</module>
-        <module>bass-web-support</module>
+        <module>bass-support</module>
         <module>bass-jpa-support</module>
     </modules>
 </project>

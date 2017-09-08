@@ -3,14 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bass/bass-cloud-support/bass-cloud-support.iml" filepath="$PROJECT_DIR$/bass/bass-cloud-support/bass-cloud-support.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-cloud-support/bass-demo-cloud-support.iml" filepath="$PROJECT_DIR$/demo/bass-demo-cloud-support/bass-demo-cloud-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-aggregation/bass-demo-aggregation.iml" filepath="$PROJECT_DIR$/demo/bass-demo-aggregation/bass-demo-aggregation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-cloud-starter/bass-demo-cloud-support.iml" filepath="$PROJECT_DIR$/demo/bass-demo-cloud-starter/bass-demo-cloud-support.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-common/bass-demo-common.iml" filepath="$PROJECT_DIR$/demo/bass-demo-common/bass-demo-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-core/bass-demo-core.iml" filepath="$PROJECT_DIR$/demo/bass-demo-core/bass-demo-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-dubbo-support/bass-demo-dubbo-support.iml" filepath="$PROJECT_DIR$/demo/bass-demo-dubbo-support/bass-demo-dubbo-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-dubbo-starter/bass-demo-dubbo-support.iml" filepath="$PROJECT_DIR$/demo/bass-demo-dubbo-starter/bass-demo-dubbo-support.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-server/bass-demo-server.iml" filepath="$PROJECT_DIR$/demo/bass-demo-server/bass-demo-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/bass-demo-web/bass-demo-web.iml" filepath="$PROJECT_DIR$/demo/bass-demo-web/bass-demo-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/bass/bass-jpa-support/bass-jpa-support.iml" filepath="$PROJECT_DIR$/bass/bass-jpa-support/bass-jpa-support.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bass/bass-web-support/bass-web-support.iml" filepath="$PROJECT_DIR$/bass/bass-web-support/bass-web-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bass/bass-support/bass-support.iml" filepath="$PROJECT_DIR$/bass/bass-support/bass-support.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-demo.iml" filepath="$PROJECT_DIR$/cloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/cloud-demo.iml" filepath="$PROJECT_DIR$/.idea/cloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/eureka-consumer-demo/eureka-consumer-demo.iml" filepath="$PROJECT_DIR$/cloud/eureka-consumer-demo/eureka-consumer-demo.iml" />

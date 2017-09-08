@@ -1,24 +1,22 @@
 package server.service.dubbo;
 
-import cloud.feign.client.ApiOperationClient;
 import com.alibaba.dubbo.config.annotation.Service;
 import common.model.ApiOperation;
-import dubbo.manager.ApiOperationManager;
+import core.service.ApiOperationService;
+import manager.ApiOperationManager;
 import org.springframework.beans.factory.annotation.Autowired;
-import server.service.ApiOperationService;
 
 /**
  * Created by apple on 2017/7/30.
+ * 实现dubbo接口
  */
 @Service(version = "1.0.0")
 public class ApiOperationManagerImpl implements ApiOperationManager {
 
     private final ApiOperationService apiOperationService;
-    private final ApiOperationClient apiOperationClient;
     @Autowired
-    public ApiOperationManagerImpl(ApiOperationService apiOperationService, ApiOperationClient apiOperationClient) {
+    public ApiOperationManagerImpl(ApiOperationService apiOperationService) {
         this.apiOperationService = apiOperationService;
-        this.apiOperationClient = apiOperationClient;
     }
 
     public ApiOperation fandById(Long id) {
@@ -32,6 +30,5 @@ public class ApiOperationManagerImpl implements ApiOperationManager {
     public void sendKafka() {
         ApiOperation apiOperation=apiOperationService.fandById(1l);
         apiOperationService.sendKafka(apiOperation.getContent()+"| Dubbo");
-        apiOperationClient.sendKafka();
     }
 }

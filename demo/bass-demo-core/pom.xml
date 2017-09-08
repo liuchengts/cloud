@@ -1,49 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-	<groupId>demo</groupId>
-	<artifactId>bass-demo-core</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+    <groupId>demo</groupId>
+    <artifactId>bass-demo-core</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
-	<name>bass-demo-core</name>
-	<description>数据操作支持</description>
+    <name>bass-demo-core</name>
+    <description>数据操作支持</description>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
-		<spring-boot.version>1.5.3.RELEASE</spring-boot.version>
-		<mysql.version>5.1.41</mysql.version>
-	</properties>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <spring-boot.version>1.5.3.RELEASE</spring-boot.version>
+        <mysql.version>5.1.41</mysql.version>
+        <kafka.version>1.1.6.RELEASE</kafka.version>
+    </properties>
 
-	<dependencies>
-		<dependency>
-			<groupId>bass</groupId>
-			<artifactId>bass-jpa-support</artifactId>
-			<version>${version}</version>
-		</dependency>
-		<dependency>
-			<groupId>demo</groupId>
-			<artifactId>bass-demo-common</artifactId>
-			<version>${version}</version>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>${mysql.version}</version>
-		</dependency>
-	</dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>bass</groupId>
+            <artifactId>bass-jpa-support</artifactId>
+            <version>${version}</version>
+        </dependency>
+        <dependency>
+            <groupId>demo</groupId>
+            <artifactId>bass-demo-common</artifactId>
+            <version>${version}</version>
+        </dependency>
+        <!-- kafka支持 -->
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+            <version>${kafka.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+        </dependency>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>${spring-boot.version}</version>
-			</plugin>
-		</plugins>
-	</build>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.version}</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>

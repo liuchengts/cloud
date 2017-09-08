@@ -30,3 +30,4 @@ zuul:
    PreRequestFilter:
      pre:
        disable: true
+
