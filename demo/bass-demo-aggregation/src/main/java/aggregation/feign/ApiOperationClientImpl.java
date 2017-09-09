@@ -2,6 +2,7 @@ package aggregation.feign;
 
 import cloud.feign.client.ApiOperationClient;
 import com.alibaba.dubbo.config.annotation.Reference;
+import manager.ApiOperationManager;
 import org.springframework.stereotype.Component;
 
 /**

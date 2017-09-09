@@ -15,10 +15,10 @@ import org.springframework.web.client.RestTemplate;
 @EnableHystrix//开启断路器功能
 @EnableAutoConfiguration //启用自动配置
 @EnableAsync //启用异步
-public class BassSupportApplication {
+public class BassCloudSupportApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BassSupportApplication.class, args);
+        SpringApplication.run(BassCloudSupportApplication.class, args);
     }
 
     @Bean
