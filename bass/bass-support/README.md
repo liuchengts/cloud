@@ -1,11 +1,11 @@
-bass-support-web
+bass-support
 ---------------------------
-web框架支持
+框架支持
 
 ### 说明
 
 * 提供dubbo支持（redis作为注册中心）
-* 提供web功能，支持thymeleaf模板
+* 提供web功能
 
 
 

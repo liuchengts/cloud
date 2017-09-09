@@ -6,7 +6,7 @@ server-cloud框架支持
 
 * 提供springcloud组件支持（eureka、feign、hystrix）
 * 提供dubbo支持（redis作为注册中心）
-* 提供web功能，但不支持thymeleaf
+* 提供web功能
 
 
 
