@@ -1,4 +1,4 @@
-cloud-support
+cloud-starter
 ---------------------------
 demo项目的cloud接口提供层
 
