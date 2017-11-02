@@ -13,6 +13,7 @@ eureka:
         defaultZone: http://user:123456@localhost:${server.port}/eureka/
   server:
     waitTimeInMsWhenSyncEmpty: 0
+    enableSelfPreservation: false
 
 logging:
   level: info
